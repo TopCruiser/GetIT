@@ -44,6 +44,12 @@ class DBWrapper {
     var categoryItems : [CategoryItem]
     var computedUser : User?
     var itemCallables: [()->()] = []
+    
+    
+    class func getInstance() -> DBWrapper.Type{
+        return self
+    }
+
     var user : User {
         get {
             if (computedUser != nil) {
@@ -60,7 +66,7 @@ class DBWrapper {
                 let hasPaypalProfile: Bool?
                 
                 if prefs.objectForKey(hasPaypalInfoConstant) != nil {
-                    hasPaypalProfile = prefs.objectForKey(hasPaypalInfoConstant) as! Bool
+                    hasPaypalProfile = prefs.objectForKey(hasPaypalInfoConstant) as? Bool
                 } else {
                     hasPaypalProfile = false
                 }

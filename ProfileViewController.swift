@@ -193,18 +193,10 @@ class ProfileViewController: UncoveredContentViewController, UIPickerViewDelegat
      * if we have an age render it, and select picker
      */
     func renderAge() {
-        let locationTapRecognizer = UITapGestureRecognizer(target: self, action: "locationControl:")
+        let locationTapRecognizer = UITapGestureRecognizer(target: self, action: #selector(ProfileViewController.locationControl(_:)))
         locationTapRecognizer.numberOfTapsRequired = 1
         locationIcon.userInteractionEnabled = true
         locationIcon.addGestureRecognizer(locationTapRecognizer)
-        
-        let prefs = NSUserDefaults.standardUserDefaults()
-        
-        /*if (prefs.objectForKey(userAgeConstant) != nil) {
-            ageView.text = String(prefs.objectForKey(userAgeConstant) as! Int)
-        } else {
-            ageView.text = ""
-        }*/
         
         let toolBar = UIToolbar()
         toolBar.barStyle = UIBarStyle.Default
@@ -212,9 +204,9 @@ class ProfileViewController: UncoveredContentViewController, UIPickerViewDelegat
         toolBar.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
         toolBar.sizeToFit()
         
-        let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "donePicker")
+        let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(ProfileViewController.donePicker))
         let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil)
-        let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: "donePicker")
+        let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(ProfileViewController.donePicker))
         
         toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
         toolBar.userInteractionEnabled = true
