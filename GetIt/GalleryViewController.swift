@@ -99,7 +99,7 @@ class GalleryViewController: UIViewController, UIScrollViewDelegate {
         let lastPage = page+1
         
         // purge everything before first page
-        for var index = 0; index < firstPage; index += 1 {
+        for index in 0 ..< firstPage {
             purgePage(index)
         }
         
@@ -109,7 +109,7 @@ class GalleryViewController: UIViewController, UIScrollViewDelegate {
         }
         
         // purge everything after last page
-        for var index = lastPage + 1; index < pageImageUrls.count; index += 1 {
+        for index in lastPage + 1 ..< pageImageUrls.count {
             purgePage(index)
         }
     }

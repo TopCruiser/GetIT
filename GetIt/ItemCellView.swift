@@ -9,7 +9,6 @@
 import UIKit
 import CoreLocation
 
-
 class ItemCellView: UITableViewCell {
     @IBOutlet weak var itemImageView: UIImageView!
     @IBOutlet weak var itemNameView: UITextView!    

@@ -1,5 +1,5 @@
 framework module Haneke {
-  umbrella header "Haneke.h"
+  umbrella header "HanekeSwift-umbrella.h"
 
   export *
   module * { export * }

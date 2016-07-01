@@ -64,24 +64,17 @@
 		35F42BCF1C8E7B2C00FE5ACF /* AutoCompleteTextField in Resources */ = {isa = PBXBuildFile; fileRef = 35F42BCE1C8E7B2C00FE5ACF /* AutoCompleteTextField */; };
 		35F42BD11C8E7BBE00FE5ACF /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F42BD01C8E7BBE00FE5ACF /* AutoCompleteTextField.swift */; };
 		35F4B9C21CEA6526003B84DE /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F4B9C11CEA6526003B84DE /* StoreViewController.swift */; };
-		CE8C1A6F1D25377800301B79 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38D4B1D250C6D006270E1 /* HockeySDK.framework */; };
-		CE8C1A711D25382500301B79 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CEA1D2507C9006270E1 /* Haneke.framework */; };
-		CE8C1A731D25AD2600301B79 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38D801D2513B2006270E1 /* Alamofire.framework */; };
-		CE8C1A741D25AD2600301B79 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38D801D2513B2006270E1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE8C1A761D25AD2900301B79 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38D4B1D250C6D006270E1 /* HockeySDK.framework */; };
-		CE8C1A771D25AD2900301B79 /* HockeySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38D4B1D250C6D006270E1 /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE8C1A781D25AD3100301B79 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CEA1D2507C9006270E1 /* Haneke.framework */; };
-		CE8C1A791D25AD3100301B79 /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CEA1D2507C9006270E1 /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE8C1A7A1D25AD3500301B79 /* HockeySDKResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = CEF38D511D250D96006270E1 /* HockeySDKResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE8C1A7C1D25AD3900301B79 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CC81D250269006270E1 /* FBSDKLoginKit.framework */; };
-		CE8C1A7D1D25AD3900301B79 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CC81D250269006270E1 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE8C1A7E1D25AD3C00301B79 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CC71D250269006270E1 /* FBSDKCoreKit.framework */; };
-		CE8C1A7F1D25AD3C00301B79 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CC71D250269006270E1 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEF38CC91D250269006270E1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CC71D250269006270E1 /* FBSDKCoreKit.framework */; };
-		CEF38CCA1D250269006270E1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38CC81D250269006270E1 /* FBSDKLoginKit.framework */; };
-		CEF38D521D250D96006270E1 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEF38D511D250D96006270E1 /* HockeySDKResources.bundle */; };
+		CEACF7FB1D2643F300050D52 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACF7F41D2643F300050D52 /* FBSDKCoreKit.framework */; };
+		CEACF7FC1D2643F300050D52 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACF7F51D2643F300050D52 /* FBSDKLoginKit.framework */; };
+		CEACF7FD1D2643F300050D52 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACF7F61D2643F300050D52 /* Haneke.framework */; };
+		CEACF7FE1D2643F300050D52 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEACF7F71D2643F300050D52 /* HockeySDKResources.bundle */; };
+		CEACF7FF1D2643F300050D52 /* Pods_GetIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACF7F81D2643F300050D52 /* Pods_GetIt.framework */; };
+		CEACF8001D2643F300050D52 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACF7F91D2643F300050D52 /* SwiftyJSON.framework */; };
+		CEACF80B1D26480100050D52 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACF8091D26480100050D52 /* Bolts.framework */; };
+		CEDC5E471D264BB000275D50 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC5E461D264BB000275D50 /* HockeySDK.framework */; };
+		CEDC5E4E1D264DFE00275D50 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC5E4C1D264DF100275D50 /* Alamofire.framework */; };
+		CEDC5E4F1D264DFE00275D50 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC5E4C1D264DF100275D50 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEF38D541D250F03006270E1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF38D531D250F03006270E1 /* SwiftyJSON.swift */; };
-		CEF38D821D251415006270E1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF38D801D2513B2006270E1 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,30 +95,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CE8C1A751D25AD2600301B79 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CE8C1A7F1D25AD3C00301B79 /* FBSDKCoreKit.framework in Embed Frameworks */,
-				CE8C1A771D25AD2900301B79 /* HockeySDK.framework in Embed Frameworks */,
-				CE8C1A741D25AD2600301B79 /* Alamofire.framework in Embed Frameworks */,
-				CE8C1A7D1D25AD3900301B79 /* FBSDKLoginKit.framework in Embed Frameworks */,
-				CE8C1A791D25AD3100301B79 /* Haneke.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE8C1A7B1D25AD3500301B79 /* Embed PlugIns */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CE8C1A7A1D25AD3500301B79 /* HockeySDKResources.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDC5E501D264DFE00275D50 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEDC5E4F1D264DFE00275D50 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -211,13 +199,16 @@
 		35F42BD01C8E7BBE00FE5ACF /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoCompleteTextField.swift; path = AutoCompleteTextField/AutoCompleteTextField.swift; sourceTree = "<group>"; };
 		35F4B9C11CEA6526003B84DE /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		683977548EEE0ABB3D96B2EB /* Pods-GetIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetIt/Pods-GetIt.debug.xcconfig"; sourceTree = "<group>"; };
-		CEF38CC71D250269006270E1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		CEF38CC81D250269006270E1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		CEF38CEA1D2507C9006270E1 /* Haneke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Haneke.framework; sourceTree = "<group>"; };
-		CEF38D4B1D250C6D006270E1 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		CEF38D511D250D96006270E1 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		CEACF7F41D2643F300050D52 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CEACF7F51D2643F300050D52 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CEACF7F61D2643F300050D52 /* Haneke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Haneke.framework; sourceTree = "<group>"; };
+		CEACF7F71D2643F300050D52 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		CEACF7F81D2643F300050D52 /* Pods_GetIt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_GetIt.framework; sourceTree = "<group>"; };
+		CEACF7F91D2643F300050D52 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
+		CEACF8091D26480100050D52 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Library/Developer/Xcode/DerivedData/GetIt-hhkcibnhacygxpescrjaovtxpyga/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		CEDC5E461D264BB000275D50 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		CEDC5E4C1D264DF100275D50 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		CEF38D531D250F03006270E1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		CEF38D801D2513B2006270E1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		F5BB581221C0581888AA69B7 /* Pods-GetIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetIt/Pods-GetIt.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,29 +217,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEACF80B1D26480100050D52 /* Bolts.framework in Frameworks */,
+				CEACF7FC1D2643F300050D52 /* FBSDKLoginKit.framework in Frameworks */,
 				35621CA51CBB32CC000699B1 /* SafariServices.framework in Frameworks */,
+				CEACF7FD1D2643F300050D52 /* Haneke.framework in Frameworks */,
 				35621CA31CBB32BF000699B1 /* SystemConfiguration.framework in Frameworks */,
-				CEF38CCA1D250269006270E1 /* FBSDKLoginKit.framework in Frameworks */,
-				CEF38D821D251415006270E1 /* Alamofire.framework in Frameworks */,
+				CEACF8001D2643F300050D52 /* SwiftyJSON.framework in Frameworks */,
+				CEDC5E4E1D264DFE00275D50 /* Alamofire.framework in Frameworks */,
 				35621CA11CBB32B6000699B1 /* MobileCoreServices.framework in Frameworks */,
 				35621C9F1CBB3293000699B1 /* MessageUI.framework in Frameworks */,
 				35621CBD1CBB48AF000699B1 /* libopencv_imgproc.a in Frameworks */,
 				35621C9D1CBB3280000699B1 /* CoreMedia.framework in Frameworks */,
-				CE8C1A7C1D25AD3900301B79 /* FBSDKLoginKit.framework in Frameworks */,
-				CE8C1A761D25AD2900301B79 /* HockeySDK.framework in Frameworks */,
-				CE8C1A6F1D25377800301B79 /* HockeySDK.framework in Frameworks */,
 				35621C9B1CBB3278000699B1 /* CoreLocation.framework in Frameworks */,
 				35621C991CBB326B000699B1 /* AVFoundation.framework in Frameworks */,
-				CE8C1A731D25AD2600301B79 /* Alamofire.framework in Frameworks */,
 				35621CBB1CBB48AF000699B1 /* libCardIO.a in Frameworks */,
-				CE8C1A781D25AD3100301B79 /* Haneke.framework in Frameworks */,
+				CEACF7FF1D2643F300050D52 /* Pods_GetIt.framework in Frameworks */,
 				35621C971CBB3263000699B1 /* AudioToolbox.framework in Frameworks */,
-				CE8C1A711D25382500301B79 /* Haneke.framework in Frameworks */,
 				35621CBC1CBB48AF000699B1 /* libopencv_core.a in Frameworks */,
-				CEF38CC91D250269006270E1 /* FBSDKCoreKit.framework in Frameworks */,
-				CE8C1A7E1D25AD3C00301B79 /* FBSDKCoreKit.framework in Frameworks */,
 				35621C951CBB3235000699B1 /* Accelerate.framework in Frameworks */,
+				CEACF7FB1D2643F300050D52 /* FBSDKCoreKit.framework in Frameworks */,
 				35621CBE1CBB48AF000699B1 /* libPayPalMobile.a in Frameworks */,
+				CEDC5E471D264BB000275D50 /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,12 +337,15 @@
 		352C92871CE2A2520042C491 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEF38D801D2513B2006270E1 /* Alamofire.framework */,
-				CEF38D511D250D96006270E1 /* HockeySDKResources.bundle */,
-				CEF38D4B1D250C6D006270E1 /* HockeySDK.framework */,
-				CEF38CEA1D2507C9006270E1 /* Haneke.framework */,
-				CEF38CC71D250269006270E1 /* FBSDKCoreKit.framework */,
-				CEF38CC81D250269006270E1 /* FBSDKLoginKit.framework */,
+				CEDC5E4C1D264DF100275D50 /* Alamofire.framework */,
+				CEDC5E461D264BB000275D50 /* HockeySDK.framework */,
+				CEACF8091D26480100050D52 /* Bolts.framework */,
+				CEACF7F41D2643F300050D52 /* FBSDKCoreKit.framework */,
+				CEACF7F51D2643F300050D52 /* FBSDKLoginKit.framework */,
+				CEACF7F61D2643F300050D52 /* Haneke.framework */,
+				CEACF7F71D2643F300050D52 /* HockeySDKResources.bundle */,
+				CEACF7F81D2643F300050D52 /* Pods_GetIt.framework */,
+				CEACF7F91D2643F300050D52 /* SwiftyJSON.framework */,
 				35621CA41CBB32CC000699B1 /* SafariServices.framework */,
 				35621CA21CBB32BF000699B1 /* SystemConfiguration.framework */,
 				35621CA01CBB32B6000699B1 /* MobileCoreServices.framework */,
@@ -474,11 +466,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005BC78D1C6960B500099031 /* Build configuration list for PBXNativeTarget "GetIt" */;
 			buildPhases = (
+				EF9BAF99765921100CFEE9AC /* [CP] Check Pods Manifest.lock */,
 				005BC7621C6960B500099031 /* Frameworks */,
 				005BC7631C6960B500099031 /* Resources */,
-				005BC7611C6960B500099031 /* Sources */,
-				CE8C1A751D25AD2600301B79 /* Embed Frameworks */,
 				CE8C1A7B1D25AD3500301B79 /* Embed PlugIns */,
+				B35ABB1523A41D49858FAC4A /* [CP] Embed Pods Frameworks */,
+				005BC7611C6960B500099031 /* Sources */,
+				C31C043AE503C12626C2B6C9 /* [CP] Copy Pods Resources */,
+				CEACF8051D2645CF00050D52 /* ShellScript */,
+				CEDC5E501D264DFE00275D50 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -585,7 +581,7 @@
 				35EB27C71CA9B03000A1FED2 /* Aller_Std_Bd.ttf in Resources */,
 				35EB27CB1CA9B03000A1FED2 /* Aller_Std_LtIt.ttf in Resources */,
 				005BC7731C6960B500099031 /* LaunchScreen.storyboard in Resources */,
-				CEF38D521D250D96006270E1 /* HockeySDKResources.bundle in Resources */,
+				CEACF7FE1D2643F300050D52 /* HockeySDKResources.bundle in Resources */,
 				35EB27CD1CA9B03000A1FED2 /* AllerDisplay_Std_Rg.ttf in Resources */,
 				35EB27CC1CA9B03000A1FED2 /* Aller_Std_Rg.ttf in Resources */,
 				005BC7701C6960B500099031 /* Assets.xcassets in Resources */,
@@ -656,6 +652,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		B35ABB1523A41D49858FAC4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetIt/Pods-GetIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31C043AE503C12626C2B6C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetIt/Pods-GetIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C9DB2C61A34895993AB55836 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -671,6 +697,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		CEACF8051D2645CF00050D52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nDEVICE_PATH=\"${OBJROOT}/UninstalledProducts/${TARGET_NAME}.framework\"\nSIMULATOR_PATH=\"${SYMROOT}/../../../../Products/Debug-iphonesimulator/${TARGET_NAME}.framework\"\nARCHIVE_PATH=\"${SRCROOT}/_Archive\"\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\nif [ -d \"${DEVICE_PATH}\" ]; then\nif [ -d \"${SIMULATOR_PATH}\" ]; then\nrm -rf \"${ARCHIVE_PATH}\"\nmkdir \"${ARCHIVE_PATH}\"\ncp -r \"${DEVICE_PATH}\" \"${ARCHIVE_PATH}\"\nlipo -create \"${DEVICE_PATH}/${TARGET_NAME}\" \"${SIMULATOR_PATH}/${TARGET_NAME}\" -output \"${ARCHIVE_PATH}/${TARGET_NAME}.framework/${TARGET_NAME}\"\nfi\nfi\nfi\nexit 0;";
+		};
 		DB3F6974A4AAC33B2D5E0A2E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -684,6 +723,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetItUITests/Pods-GetItUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9BAF99765921100CFEE9AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -874,15 +928,12 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/**",
-					"$(PROJECT_DIR)",
-				);
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/PaypalMobile/**";
 				INFOPLIST_FILE = GetIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR) @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CardIO",
@@ -899,7 +950,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GetIt/GetIt-Bridging-Header.h";
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				s = "";
 			};
 			name = Debug;
@@ -913,15 +964,12 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/**",
-					"$(PROJECT_DIR)",
-				);
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/PaypalMobile/**";
 				INFOPLIST_FILE = GetIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR) @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CardIO",
@@ -938,7 +986,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GetIt/GetIt-Bridging-Header.h";
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				s = "";
 			};
 			name = Release;

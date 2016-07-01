@@ -308,7 +308,7 @@ class ProfileViewController: UncoveredContentViewController, UIPickerViewDelegat
                 avatarView.layer.cornerRadius = avatarView.frame.height/2
                 avatarView.clipsToBounds = true
             }
-            
+
             avatarView.hnk_setImageFromURL(NSURL(string:avatarUser!.avatars[0].url)!, success: onSuccess)
         }
         

@@ -267,7 +267,7 @@ class DBWrapper {
         // persist user profile from server
         let prefs = NSUserDefaults.standardUserDefaults()
         //let oldUrls = prefs.objectForKey(self.getItUserAvatarsConstant) as! [String]
-        var avatarUrls : [String] = userJson["avatars"].arrayValue.map { "\($0["id"]),\($0["url"])" }
+        let avatarUrls : [String] = userJson["avatars"].arrayValue.map { "\($0["id"]),\($0["url"])" }
         //var avatars : [UserAvatar] = userJson["avatars"].arrayValue.map { UserAvatar(url: $0["url"].stringValue, id: $0["id"].intValue, user: nil)! }
         /*if oldUrls.count > 0 {
             avatarUrls.append(oldUrls[0])*/

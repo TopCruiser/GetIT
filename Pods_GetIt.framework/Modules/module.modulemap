@@ -1,0 +1,6 @@
+framework module Pods_GetIt {
+  umbrella header "Pods-GetIt-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -93,9 +93,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import Foundation;
-@import ObjectiveC;
 @import UIKit;
-@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -112,7 +110,6 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 
 
 @interface NSHTTPURLResponse (SWIFT_EXTENSION(Haneke))
-- (BOOL)hnk_isValidStatusCode;
 @end
 
 
@@ -121,12 +118,6 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 
 
 @interface NSURLResponse (SWIFT_EXTENSION(Haneke))
-- (BOOL)hnk_validateLengthOfData:(NSData * _Nonnull)data;
-@end
-
-
-SWIFT_CLASS("_TtC6Haneke13ObjectWrapper")
-@interface ObjectWrapper : NSObject
 @end
 
 @class UIImage;
@@ -142,15 +133,10 @@ SWIFT_CLASS("_TtC6Haneke13ObjectWrapper")
 
 
 @interface UIImage (SWIFT_EXTENSION(Haneke))
-- (UIImage * _Nonnull)hnk_imageByScalingToSize:(CGSize)toSize;
-- (BOOL)hnk_hasAlpha;
-- (NSData * _Null_unspecified)hnk_dataWithCompressionQuality:(float)compressionQuality;
-- (UIImage * _Null_unspecified)hnk_decompressedImage;
 @end
 
 
 @interface UIImage (SWIFT_EXTENSION(Haneke))
-+ (UIImage * _Nullable)safeImageWithData:(NSData * _Nonnull)data;
 + (UIImage * _Nullable)convertFromData:(NSData * _Nonnull)data;
 - (NSData * _Null_unspecified)asData;
 @end

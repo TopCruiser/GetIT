@@ -184,7 +184,6 @@ class ConvoViewController : UIViewController, LGChatControllerDelegate, PayPalPa
             self.presentViewController(actionMenu, animated: true, completion: nil)
         } else if convo?.intentStatus == 1 {
             
-            let intentStatus = convo?.intentStatus
             let itemName = convo?.itemName,
             itemPrice = convo?.itemPrice,
             itemId = convo?.itemId
@@ -267,8 +266,6 @@ class ConvoViewController : UIViewController, LGChatControllerDelegate, PayPalPa
         chatController.view.userInteractionEnabled = true
         chatController.inputView?.layoutSubviews()
         
-        let width = NSLayoutConstraint(item: chatController.view, attribute: .Width, relatedBy: .Equal, toItem: containerView, attribute: .Width, multiplier: 1.0, constant: 0)
-        let height = NSLayoutConstraint(item: chatController.view, attribute: .Height, relatedBy: .Equal, toItem: containerView, attribute: .Height, multiplier: 0.8, constant: 0)
         containerView.userInteractionEnabled = true
         //let v = chatController.inputView
         //chatController.inputView?.removeFromSuperview()
